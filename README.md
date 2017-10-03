@@ -70,3 +70,7 @@ benchHemera*10000: 2669.848ms
 benchHemera*10000: 2069.004ms
 benchSenecaNats FAILED
 ```
+
+## TODO
+
+- [ ] Start multiple producer and bench
