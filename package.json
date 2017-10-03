@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier ./*.js --write",
-    "start": "node bench"
+    "simple": "node ./bench/simple"
   },
   "author": "Dustin Deus <deusdustin@gmail.com> (http://www.starptech.de)",
   "license": "ISC",

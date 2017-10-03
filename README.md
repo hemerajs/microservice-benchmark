@@ -5,7 +5,7 @@ This is a simple benchmark for microservice frameworks which support NATS as tra
 
 ```
 $ npm install
-$ npm start
+$ npm run simple
 ```
 
 ## Run NATS
