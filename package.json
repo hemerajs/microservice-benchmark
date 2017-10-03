@@ -1,0 +1,27 @@
+{
+  "name": "microservice-benchmark",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier ./*.js --write",
+    "start": "node bench"
+  },
+  "author": "Dustin Deus <deusdustin@gmail.com> (http://www.starptech.de)",
+  "license": "ISC",
+  "dependencies": {
+    "fastbench": "^1.0.1",
+    "moleculer": "0.11.1",
+    "nats": "0.7.20",
+    "nats-hemera": "2.0.2",
+    "seneca": "3.3.0",
+    "seneca-nats-transport": "2.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
