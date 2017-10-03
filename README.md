@@ -31,6 +31,7 @@ Platform info:
    Windows_NT 10.0.15063 x64
    Node.JS: 8.4.0
    V8: 6.0.286.52
+   Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz × 4
 ==============
 benchSenecaNats*1000: 490.746ms
 benchHemera*1000: 310.382ms
@@ -63,6 +64,7 @@ Platform info:
    Windows_NT 10.0.15063 x64
    Node.JS: 8.4.0
    V8: 6.0.286.52
+   Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz × 4
 ==============
 benchMoleculerNats*10000: 11169.327ms
 benchMoleculerNats*10000: 10594.909ms
