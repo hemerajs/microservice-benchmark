@@ -1,4 +1,4 @@
-# Microservice Framework Benchmark
+# 🌀 Microservice Framework Benchmark
 This is a simple benchmark for microservice frameworks in Node.Js which support NATS as transport.
 
 ## Install
