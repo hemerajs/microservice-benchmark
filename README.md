@@ -76,3 +76,4 @@ benchSenecaNats FAILED
 ## TODO
 
 - [ ] Start multiple producer and bench
+- [ ] Bench consuming
