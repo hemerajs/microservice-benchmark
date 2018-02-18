@@ -13,9 +13,9 @@ https://nats.io/documentation/tutorials/gnatsd-install
 
 ## Frameworks
 
-- Hemera
-- Seneca
-- Moleculer
+- Hemera 3.1.9
+- Seneca 3.4.3
+- Moleculer 0.11.10
 
 ## Run simple test
 - Send 1000 msg for 2 rounds
@@ -28,17 +28,18 @@ $ npm run simple
 ```
 Platform info:
 ==============
-   Windows_NT 10.0.15063 x64
-   Node.JS: 8.4.0
-   V8: 6.0.286.52
+   Windows_NT 10.0.16299 x64
+   Node.JS: 8.9.0
+   V8: 6.1.534.46
    Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz × 4
 ==============
-benchSenecaNats*1000: 490.746ms
-benchHemera*1000: 310.382ms
-benchMoleculerNats*1000: 1371.028ms
-benchSenecaNats*1000: 404.128ms
-benchHemera*1000: 257.626ms
-benchMoleculerNats*1000: 1309.244ms
+Wait 1 second and send 2x 1000 msg
+==============
+benchHemera*1000: 299.032ms
+benchHemera*1000: 224.414ms
+benchMoleculerNats*1000: 402.865ms
+benchMoleculerNats*1000: 335.870ms
+benchSenecaNats FAILED
 ```
 
 ## Run complex test
@@ -66,10 +67,10 @@ Platform info:
    V8: 6.0.286.52
    Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz × 4
 ==============
-benchMoleculerNats*10000: 11169.327ms
-benchMoleculerNats*10000: 10594.909ms
-benchHemera*10000: 2669.848ms
-benchHemera*10000: 2069.004ms
+benchHemera*10000: 2606.231ms
+benchHemera*10000: 2080.486ms
+benchMoleculerNats*10000: 4334.958ms
+benchMoleculerNats*10000: 3649.779ms
 benchSenecaNats FAILED
 ```
 
