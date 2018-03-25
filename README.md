@@ -18,7 +18,8 @@ https://nats.io/documentation/tutorials/gnatsd-install
 - Moleculer 0.12.1
 
 ## Run simple test
-- Send 1000 msg for 2 rounds
+- Start one consumer
+- Send 1000 msg for 2 rounds from one producer
 
 ```
 $ npm run simple
@@ -44,8 +45,8 @@ benchSenecaNats FAILED
 
 ## Run complex test
 
-- start x (cpu count) child processes
-- Send 10000 messages for 2 rounds
+- Start x (cpu count) consumer in seperate child processes
+- Send 10000 messages for 2 rounds from one producer
 
 ```
 $ node ./hemera/cluster.js
