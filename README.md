@@ -13,9 +13,9 @@ https://nats.io/documentation/tutorials/gnatsd-install
 
 ## Frameworks
 
-- Hemera 3.1.9
+- Hemera 5.0.0-rc.6
 - Seneca 3.4.3
-- Moleculer 0.11.10
+- Moleculer 0.12.1
 
 ## Run simple test
 - Send 1000 msg for 2 rounds
@@ -35,10 +35,10 @@ Platform info:
 ==============
 Wait 1 second and send 2x 1000 msg
 ==============
-benchHemera*1000: 299.032ms
-benchHemera*1000: 224.414ms
-benchMoleculerNats*1000: 402.865ms
-benchMoleculerNats*1000: 335.870ms
+benchHemera*1000: 256.290ms
+benchMoleculerNats*1000: 428.048ms
+benchHemera*1000: 211.463ms
+benchMoleculerNats*1000: 359.218ms
 benchSenecaNats FAILED
 ```
 
@@ -62,15 +62,15 @@ $ node ./seneca/fire.js
 ```
 Platform info:
 ==============
-   Windows_NT 10.0.15063 x64
-   Node.JS: 8.4.0
-   V8: 6.0.286.52
+   Windows_NT 10.0.16299 x64
+   Node.JS: 8.9.0
+   V8: 6.1.534.46
    Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz × 4
 ==============
-benchHemera*10000: 2606.231ms
-benchHemera*10000: 2080.486ms
-benchMoleculerNats*10000: 4334.958ms
-benchMoleculerNats*10000: 3649.779ms
+benchHemera*10000: 2023.594ms
+benchHemera*10000: 1822.519ms
+benchMoleculerNats*10000: 4053.163ms
+benchMoleculerNats*10000: 3758.600ms
 benchSenecaNats FAILED
 ```
 

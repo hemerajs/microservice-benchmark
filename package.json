@@ -11,9 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "fastbench": "^1.0.1",
-    "moleculer": "0.11.10",
-    "nats": "0.7.29",
-    "nats-hemera": "3.1.9",
+    "moleculer": "0.12.1",
+    "nats": "0.8.4",
+    "nats-hemera": "5.0.0-rc.6",
     "seneca": "3.4.3",
     "seneca-nats-transport": "2.0.3"
   },
