@@ -13,7 +13,7 @@ https://nats.io/documentation/tutorials/gnatsd-install
 
 ## Frameworks
 
-- Hemera 5.0.0-rc.6
+- Hemera 5.0.1
 - Seneca 3.4.3
 - Moleculer 0.12.1
 
@@ -36,10 +36,10 @@ Platform info:
 ==============
 Wait 1 second and send 2x 1000 msg
 ==============
-benchHemera*1000: 256.290ms
-benchMoleculerNats*1000: 428.048ms
-benchHemera*1000: 211.463ms
-benchMoleculerNats*1000: 359.218ms
+benchHemera*1000: 250.641ms
+benchMoleculerNats*1000: 433.571ms
+benchHemera*1000: 201.187ms
+benchMoleculerNats*1000: 355.256ms
 benchSenecaNats FAILED
 ```
 
@@ -68,10 +68,10 @@ Platform info:
    V8: 6.1.534.46
    Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz × 4
 ==============
-benchHemera*10000: 2023.594ms
-benchHemera*10000: 1822.519ms
-benchMoleculerNats*10000: 4053.163ms
-benchMoleculerNats*10000: 3758.600ms
+benchHemera*10000: 1801.420ms
+benchHemera*10000: 1591.466ms
+benchMoleculerNats*10000: 3848.300ms
+benchMoleculerNats*10000: 3511.714ms
 benchSenecaNats FAILED
 ```
 
